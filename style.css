@@ -1,0 +1,38 @@
+#container{
+    position: relative;
+    background:url("watchh-removebg-preview.png") no-repeat;
+    margin: auto;
+    height: 50vw;
+    width: 50vw;
+    background-size: 100%;
+}
+#hourshand, #minuteshand, #secondshand{
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#secondshand{
+    height: 27%;
+    width: 0.7%;
+    background-color:rgb(72, 158, 211);
+    top:18%;
+    left: 50.2%;
+    opacity: 0.8;
+}
+#minuteshand{
+    height: 24%;
+    width: 1.2%;
+    background-color:rgb(110, 182, 3);
+    top:21%;
+    left: 49.9%;
+    opacity: 0.8;
+}
+#hourshand{
+    height: 20%;
+    width: 1.5%;
+    background-color: rgb(158, 1, 1);
+    top:25%;
+    left: 49.75%;
+    opacity: 0.8;
+}
+
